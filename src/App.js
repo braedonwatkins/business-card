@@ -38,7 +38,7 @@ function App() {
           </div>
 
           <footer>
-            <img className="stinky" src={linkedinIcon}/>
+            <img src={linkedinIcon}/>
             <img src={githubIcon}/>
           </footer>
       </div>
