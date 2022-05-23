@@ -10,8 +10,8 @@ function App() {
             <img src={selfie}/>
             <h1>Braedon Watkins</h1>
             <span>Frontend Developer</span>
-            <a href="https://braedonwatkins.github.io/index">my site (coming soon)</a>
-            <button><a href="mailto:watkins.braedon@gmail.com">Email</a></button>
+            <a href="https://braedonwatkins.github.io/index" className="site">my site (coming soon)</a>
+            <button className="email" onClick="mailto:watkins.braedon@gmail.com">Email</button>
           </div>
           
           <div className="exposition">
@@ -32,7 +32,7 @@ function App() {
           </div>
 
           <footer>
-            <img src="linkedin-icon"/>
+            <img src="./images/linkedin-icon"/>
             <img src="github-icon"/>
           </footer>
       </div>
