@@ -102,3 +102,10 @@ body {
 .info > a {
   font-size: 10px;
 }
+
+.exposition > h1 {
+  font-size: 16px;
+}
+.exposition > span {
+  font-size: 10px;
+}
