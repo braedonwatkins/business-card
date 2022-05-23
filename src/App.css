@@ -71,3 +71,11 @@ body {
   width: 317px;
   height: 317px;
 }
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+
+  flex: 1 1 45px;
+  background-color: #D5D4D8;
+}
