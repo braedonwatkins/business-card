@@ -71,17 +71,13 @@ body {
 
   border: solid 3px red;
 }
-.card > img {
-  width: 317px;
-  height: 317px;
-}
 .card > footer {
   display: flex;
   justify-content: space-evenly;
   flex: 1 1 45px;
-
+  
   padding: 20px 0px;
-
+  
   background-color: #D5D4D8;
 }
 
@@ -90,4 +86,8 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 6px;
+}
+.info > img {
+  max-width: 300px;
+  max-height: 300px;
 }

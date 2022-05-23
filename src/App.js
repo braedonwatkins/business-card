@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import selfie from "./images/me.jpg"
 import './App.css';
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
     <div className="App">
       <div className="card">
           <div className="info">
-            <img src="./images/me.png"/>
+            <img src={selfie}/>
             <h1>Braedon Watkins</h1>
             <span>Frontend Developer</span>
             <a href="https://braedonwatkins.github.io/index">my site (coming soon)</a>
