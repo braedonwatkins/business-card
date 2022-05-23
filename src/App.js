@@ -2,6 +2,10 @@ import logo from './logo.svg';
 import selfie from "./images/me.jpg"
 import './App.css';
 
+export function Email() {
+  window.open("mailto:watkins.braedon@gmail.com", "_self");
+}
+
 function App() {
   return (
     <div className="App">
@@ -10,8 +14,8 @@ function App() {
             <img src={selfie}/>
             <h1>Braedon Watkins</h1>
             <span>Frontend Developer</span>
-            <a href="https://braedonwatkins.github.io/index" className="site">my site (coming soon)</a>
-            <button className="email" onClick="mailto:watkins.braedon@gmail.com">Email</button>
+            <a href="https://braedonwatkins.github.io/index">my site (coming soon)</a>
+            <button onClick={Email}>Email</button>
           </div>
           
           <div className="exposition">

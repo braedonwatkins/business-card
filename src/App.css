@@ -107,15 +107,14 @@ body {
   color: #F47D27;
   font-size: 13px;
 }
-.info > .site {
+.info > a {
   font-size: 10px;
 }
-.info > .email {
+.info > button {
   width: 250px;
   height: 35px;
 
   margin-top: 10px;
-  /* margin-bottom: 20px; */
 }
 
 .exposition {
