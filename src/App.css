@@ -41,11 +41,16 @@
 h1 {
   margin: 0;
 }
+img {
+  margin: 0;
+}
 
-body {
+body, html {
   margin: 0;
   height: 100%;
+}
 
+body {
   display: flex;
   justify-content: center;
   align-items:stretch;
@@ -53,8 +58,9 @@ body {
 
   background-color: #23252C;
 
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
+
 
 .card {
   display: flex;
@@ -70,17 +76,9 @@ body {
 
   margin: 45px 115px;
 
-  border: solid 3px red;
+  /* border: solid 3px red; */
 }
-.card > footer {
-  display: flex;
-  justify-content: space-evenly;
-  flex: 1 1 45px;
-  
-  padding: 20px 0px;
-  
-  background-color: #D5D4D8;
-}
+
 
 .info {
   display: flex;
@@ -91,7 +89,7 @@ body {
 
   gap: 6px;
 
-  border: solid 3px green;
+  /* border: solid 3px green; */
 }
 .info > img {
   flex: 1 1 100%;
@@ -117,13 +115,33 @@ body {
   margin-top: 10px;
 }
 
+
 .exposition {
   
-  border: solid 3px orange;
+  /* border: solid 3px orange; */
 }
 .exposition > h1 {
   font-size: 16px;
 }
 .exposition > span {
   font-size: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 1 1 auto;
+  
+  padding: 20px 0px;
+  
+  background-color: #D5D4D8;
+
+  /* border: solid 3px purple; */
+}
+footer > img {
+  flex: 1 1 25px;
+
+  max-width: 25px;
+  max-height: 25px;
 }

@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import selfie from "./images/me.jpg"
+import linkedinIcon from "./images/linkedin-icon.png"
+import githubIcon from "./images/github-icon.png"
 import './App.css';
 
 export function Email() {
@@ -36,8 +38,8 @@ function App() {
           </div>
 
           <footer>
-            <img src="./images/linkedin-icon"/>
-            <img src="github-icon"/>
+            <img className="stinky" src={linkedinIcon}/>
+            <img src={githubIcon}/>
           </footer>
       </div>
     </div>
