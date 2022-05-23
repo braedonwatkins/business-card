@@ -50,11 +50,13 @@ body {
   background-color: #23252C;
 
   border: 1px solid white;
-
-  /* padding: 45px 115px; */
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
   flex-grow: 1 1 auto;
 
   background-color: #F5F5F5;
