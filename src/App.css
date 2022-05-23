@@ -38,6 +38,10 @@
 } */
 
 
+h1 {
+  margin: 0;
+}
+
 body {
   margin: 0;
   height: 100vh;
@@ -74,7 +78,16 @@ body {
 .card > footer {
   display: flex;
   justify-content: space-evenly;
-
   flex: 1 1 45px;
+
+  padding: 20px 0px;
+
   background-color: #D5D4D8;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
 }
