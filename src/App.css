@@ -88,6 +88,17 @@ body {
   gap: 6px;
 }
 .info > img {
-  max-width: 300px;
-  max-height: 300px;
+  width: 317px;
+  height: 317px;
+  margin: 0;
+}
+.info > h1 {
+  font-size: 24px;
+}
+.info > span {
+  color: #F47D27;
+  font-size: 13px;
+}
+.info > a {
+  font-size: 10px;
 }
