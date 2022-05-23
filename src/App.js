@@ -9,7 +9,7 @@ function App() {
             <img src="./images/me.png"/>
             <h1>Braedon Watkins</h1>
             <span>Frontend Developer</span>
-            <a href="https://github.com/BraedonWatkins">my github</a>
+            <a href="https://braedonwatkins.github.io/index">my site (coming soon)</a>
             <button><a href="mailto:watkins.braedon@gmail.com">Email</a></button>
           </div>
           
