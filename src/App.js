@@ -4,8 +4,16 @@ import linkedinIcon from "./images/linkedin-icon.png"
 import githubIcon from "./images/github-icon.png"
 import './App.css';
 
-export function Email() {
+export function EmailLink() {
   window.open("mailto:watkins.braedon@gmail.com", "_self");
+}
+
+export function LinkedinLink() {
+  window.open("https://linkedin.com/in/braedonwatkins", "_blank");
+}
+
+export function GithubLink() {
+  window.open("https://github.com/braedonwatkins", "_blank");
 }
 
 function App() {
@@ -17,7 +25,7 @@ function App() {
             <h1>Braedon Watkins</h1>
             <span>Frontend Developer</span>
             <a href="https://braedonwatkins.github.io/index">my site (coming soon)</a>
-            <button onClick={Email}>Email</button>
+            <button onClick={EmailLink}>Email</button>
           </div>
           
           <div className="exposition">
@@ -38,8 +46,8 @@ function App() {
           </div>
 
           <footer>
-            <img src={linkedinIcon}/>
-            <img src={githubIcon}/>
+            <img onClick={LinkedinLink} src={linkedinIcon}/>
+            <img onClick={GithubLink} src={githubIcon}/>
           </footer>
       </div>
     </div>
