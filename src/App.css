@@ -44,12 +44,12 @@ h1 {
 
 body {
   margin: 0;
-  height: 100vh;
+  height: 100%;
 
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  align-items:stretch;
+
 
   background-color: #23252C;
 
@@ -61,12 +61,13 @@ body {
   flex-direction: column;
   gap: 24px;
 
-  flex-grow: 1 1 auto;
+  flex: 1 1 auto;
 
   background-color: #F5F5F5;
   border-radius: 8px;
 
   max-width: 317px;
+
   margin: 45px 115px;
 
   border: solid 3px red;
@@ -85,12 +86,19 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  flex: 1 1 100%;
+
   gap: 6px;
+
+  border: solid 3px green;
 }
 .info > img {
-  width: 317px;
-  height: 317px;
-  margin: 0;
+  flex: 1 1 100%;
+
+  max-width: 317px;
+  max-height: 317px;
+  /* margin: 0; */
 }
 .info > h1 {
   font-size: 24px;
@@ -99,10 +107,21 @@ body {
   color: #F47D27;
   font-size: 13px;
 }
-.info > a {
+.info > .site {
   font-size: 10px;
 }
+.info > .email {
+  width: 250px;
+  height: 35px;
 
+  margin-top: 10px;
+  /* margin-bottom: 20px; */
+}
+
+.exposition {
+  
+  border: solid 3px orange;
+}
 .exposition > h1 {
   font-size: 16px;
 }
